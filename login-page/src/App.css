@@ -1,0 +1,45 @@
+.container {
+  background-image: url('assets/galaxy-background-k3sokypa6cw5g5gm.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-area {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-area h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgb(41, 41, 41);
+  margin: 15px 0;
+}
+
+.forgot {
+  align-self: flex-end;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.822);
+  font-size: 0.9rem;
+}
+
+.login-btn {
+  width: 100%;
+  margin: 25px 0;
+  font-size: 1.3rem;
+  padding: 5px 0;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, #0ce0ff, #00d3ff, #2bc5ff, #5ab4ff, #81a2ff, #9197fd, #a38bf8, #b57def, #be75f4, #c76cf7, #d260fa, #dd52fb);
+}

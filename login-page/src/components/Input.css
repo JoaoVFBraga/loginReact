@@ -1,0 +1,25 @@
+.input-container {
+  margin-top: 15px;
+}
+
+.input-container span {
+  color: rgba(0, 0, 0, 0.822);
+}
+
+.input {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+  padding: 5px 0 10px 0;
+}
+
+.input input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 1.2rem;
+  margin: 0 5px;
+}
+
+.input-img {
+  max-width: 35px;
+}
